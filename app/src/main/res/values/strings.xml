@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Musical App</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="fotterNameMain">Name</string>
+    <string name="backButtonTitle">Song Playing</string>
+    <string name="songNameScene">Song Name</string>
+    <string name="splashScreenTitle">Enjoy With Music</string>
+    <string name="listItemSongName">Song Name</string>
+    <string name="listItemArtistName">artist</string>
+    <string name="listItemDuration">Duration</string>
+</resources>
