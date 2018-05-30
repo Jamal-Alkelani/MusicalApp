@@ -9,7 +9,7 @@ public class Song {
     private String duration;
     private int image;
     private static int autoIncrementID=0;
-    private boolean isCurrentlyPlaying=false;
+    
 
     public Song(String name, String artist, String duration, int image) {
         this.name = name;
