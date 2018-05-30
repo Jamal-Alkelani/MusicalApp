@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Song> songs;
     private ImageView play;
     private boolean isPlaying=true;
-    private String currentSongID=null;
     private int minitues=0;
     private int secconds=0;
     private ProgressBar progressBar;
@@ -52,14 +51,7 @@ public class MainActivity extends AppCompatActivity {
         songsAdapter.setActivity(this);
         ListView listView=(ListView) findViewById(R.id.songsList);
         listView.setAdapter(songsAdapter);
-//        play=(ImageView) findViewById(R.id.play);
         registerControls();
-//        LinearLayout linearLayout=(LinearLayout) findViewById(R.id.characters);
-//        for(int i=0;i<characters.length;i++){
-//            TextView textView=new TextView(this);
-//            textView.setText(characters[i]);
-//            linearLayout.addView(textView);
-//        }
         footerIcon=(ImageView) findViewById(R.id.footerIcon);
         footerIcon.setOnClickListener(new View.OnClickListener() {
             @Override
