@@ -18,9 +18,7 @@
             android:layout_width="match_parent"
             android:layout_marginTop="?attr/actionBarSize"
             android:layout_above="@id/fotter"
-
             android:layout_height="wrap_content"></ListView>
-
 
         <android.support.constraint.ConstraintLayout
             android:id="@+id/fotter"
