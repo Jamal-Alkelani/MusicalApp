@@ -9,7 +9,6 @@ import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SongPlaying extends AppCompatActivity {
     private ImageView back;
